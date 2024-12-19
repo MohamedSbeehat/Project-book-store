@@ -1,0 +1,85 @@
+body{
+    margin: 0rem;
+}
+.logo{
+    padding: 0 5rem;
+}
+.blue-line {
+    width: 100%;
+    height: 4px;
+    background-color: #008080; /* اختر اللون */
+    margin: 0 auto;
+    position: relative;
+    top: -2px; 
+  }
+  .headr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .headr-link a{
+    color: black;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .headr-link a:hover{
+    color: black ;
+    background-color: #c1e9e9 ;
+    border-radius: 1rem;
+  }
+  .headr-button button {
+    border: none;
+    background: none;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+.headr-button button:hover{
+background-color: #c1e9e9;
+border-radius: 1rem;
+}
+.section2{
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    
+}
+.headr-h1-section2{
+    padding: 0px 0px 0px -40px;
+    color: #008080;
+    margin-top: -40px;
+}
+.img-in-section2{
+    padding-top: 10rem;
+}
+/* .img-in-section2 img{ 
+    width: 40rem;
+}*/
+.h1-font-section2{
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-section2{
+    padding-left: 2rem;
+}
+.btn-section2 button{
+   
+    color: white;
+    background-color: #008080;
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 1rem; ;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: -2.5rem;
+}
+.btn-section2 button:hover{
+    cursor: pointer;
+}
+.pragraph-in-section2{
+    width: 38rem;
+    padding-right:10rem ;
+    margin-bottom: -2rem;
+    
+}
