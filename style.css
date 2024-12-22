@@ -277,7 +277,7 @@ button.learn-more:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-<<<<<<< HEAD
+
     background-color:  #008080; 
     border: 0.5px solid white;
   }
@@ -334,14 +334,9 @@ button.learn-more:hover {
 .arrivals-structure p{
     font-size: 15px;
     text-align: center;
-
   background-color: #008080;
-<<<<<<< HEAD
   border-radius: 20px;
-
-=======
   border-radius: 5em;
->>>>>>> ca5ecd67b24c589f616a57caf72b0a9c65336aa3
 }
 
 .price {
@@ -401,6 +396,9 @@ button.learn-more:hover {
   color: #008080;
   margin-bottom: 1em;
   font-size: 1em;
+}
+.arrivals-tag P{
+  background: none;
 }
 
 /* review section style */
@@ -605,4 +603,373 @@ footer {
 }
 .design-by span {
   color: #008080;
+}
+.social-link-in-footer{
+  display: flex
+}
+/* for iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .section-1 {
+    width: 100%;
+    height: 40vh;
+  }
+  .section nav {
+    height: 6%;
+  }
+
+  .section .main h1 {
+    margin-top: 2em;
+    font-size: 2.5em;
+  }
+ .section .main p {
+    width: 70%;
+  }
+  .section .main img {
+    width: 140%;
+    float: right;
+    margin-top: 1em;
+  }
+  .about-us {
+    display: list-item;
+    justify-content: left;
+  }
+
+  .about-us .content {
+    margin-left: 120px;
+    max-width: 40em;
+    margin-top: 4em;
+  }
+  .feature-topic {
+    margin-top: 2em;
+  }
+  .featured-books-structure {
+    width: 150%;
+    height: 33em;
+  }
+  .arrivals-structure h1 {
+    margin-top: 1em;
+  }
+  .arrivals-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+  }
+  .reviews-section h1 {
+    margin-top: 13em;
+  }
+  .review-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .review-cards {
+    width: 29em;
+  }
+  .banner {
+    width: 70em;
+    height: 17em;
+    margin-top: 5em;
+  }
+  .btn-banner {
+    margin-top: 13.5em;
+    margin-left: 5em;
+  }
+  .blog-cards {
+    width: 19.5em;
+    margin-right: 1em;
+    margin-bottom: 9em;
+  }
+  .blog-image {
+    width: 19.5em;
+  }
+  .footer-section {
+    height: 25vh;
+    padding-top: 2em;
+  }
+  .contents-in-footer {
+    margin-left: 1em;
+  }
+
+  .contents-in-footer h1 {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+  }
+  .contents-in-footer p {
+    width: 13em;
+    margin-right: 3em;
+    line-height: 1.5em;
+    text-align: justify;
+  }
+  .contents-in-footer a {
+    margin: 0.5em;
+    size: 0.1em;
+  }
+
+  .contents-in-footebx .bxs-phone {
+    margin-left: 0.1em;
+  }
+  .social-link-in-footer {
+    display: block;
+    margin-left: 1.5em;
+  }
+  .contents-in-footer .flow-us {
+    margin-right: 0.12em;
+  }
+}
+/* Responsiveness */
+/* medium screen : iphone xr */
+@media (max-width: 420px) {
+  /* General Adjustments */
+  .section-1 {
+    width: 250%;
+    height: 50vh;
+    background: url(./image/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section nav {
+    height: 8%;
+  }
+  .section nav .logo image {
+    width: 4em;
+    margin: 0.3em 0;
+  }
+  .section nav li {
+    padding: 0 0.3em;
+  }
+  .section nav li a {
+    font-size: 0.9em;
+  }
+  .social-icon i {
+    font-size: 0.9em;
+  }
+
+  /* Section 1 */
+  section .main {
+    top: 5%;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+  }
+  .section .main h1 {
+    font-size: 2em;
+    left: 0.2em;
+  }
+  .section .main p {
+    width: 90%;
+    left: 1em;
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .section .main .main-button {
+    padding: 0.4em 0.8em;
+    font-size: 0.9em;
+  }
+  .section .main img {
+    width: 80%;
+    left: 1em;
+  }
+
+  /* Features Section */
+  .section-2 {
+    margin-top: 60vh;
+    gap: 90px;
+    padding: 5px;
+    padding-left: 5vh;
+    font-size: 25px;
+  }
+  .Div-feature {
+    font-size: 0.7em;
+    padding: 0.5em;
+  }
+  .Div-feature i {
+    font-size: 2.5em;
+  }
+
+  /* About Us Section */
+  .about-us {
+    flex-direction: column;
+    padding: 1em 0.5em;
+    width: 250%;
+  }
+  .about-us h2 {
+    font-size: 1.5em;
+  }
+  .about-us p {
+    font-size: 0.9em;
+  }
+  .button.learn-more {
+    font-size: 0.9em;
+    padding: 0.4em 0.8em;
+  }
+
+  /* Featured Books Section */
+  .featured-books-structure {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 1em 1em;
+    width: 246%;
+  }
+  .feature-topic{
+    padding-left: 66vh;
+  }
+  .book-view {
+    width: 90%;
+    height: auto;
+  }
+  .boox-imge img {
+    width: 80%;
+    height: auto;
+  }
+  .book-tag h2 {
+    font-size: 0.8em;
+  }
+  .read-more-fb {
+    font-size: 0.8em;
+  }
+
+  /* Arrivals Section */
+  .arrivals-structure {
+    width: 258%;
+    margin-bottom: -10vh;
+    height: auto;
+  }
+  .arrivale-view {
+    width: 90%;
+    height: auto;
+    margin: auto 10px;
+  }
+  .arrival-img {
+    width: 8em;
+    height: 12em;
+  }
+  .arrivals-structure h1 {
+    font-size: 2.5em;
+  }
+
+  /* Review Section */
+  .reviews-section {
+    width: 220%;
+    height: auto;
+    text-align: center;
+    margin-top: 12vh;
+    padding-left: 10vh;
+  }
+  .reviews-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 1.5em;
+  }
+  .review-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin: auto;
+    height: 35em;
+  }
+  .review-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s ease;
+   
+  }
+  .review-card:hover {
+    transform: scale(1.03);
+  }
+  .review-card i {
+    font-size: 0.5em;
+    color: #007bff;
+    margin-bottom: 1em;
+  }
+  .review-card p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+  }
+  .review-card .person {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Blog Section */
+  .blog {
+    text-align: center;
+    margin: 1em auto;
+    padding-left: 30vh;
+    width: 200%;
+  }
+  .blog h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  .blog-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin: auto;
+  }
+  .blog-cards {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .blog-cards:hover {
+    transform: scale(1.03);
+  }
+  .blog-cards img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .blog-box-content {
+    padding: 1em;
+    text-align: left;
+  }
+  .blog-box-content h2 {
+    font-size: 1em;
+    color: #007bff;
+    margin-bottom: 0.5em;
+  }
+  .blog-box-content p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* Footer Section */
+  .footer {
+    width: 253%;
+    background-color: #e7e7e7;
+    font-size: 0.8em;
+  }
+  .subscraib {
+    width: 12em;
+  }
+  .subscraib input {
+    font-size: 0.7em;
+  }
+  .subscraib button {
+    font-size: 0.8em;
+  }
+  .banner{
+    width: 126%;
+    height: 50vh;
+    margin: 18vh 0vh 4vh -10vh;
+  }
 }
